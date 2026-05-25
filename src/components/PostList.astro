@@ -1,0 +1,34 @@
+---
+import { formatDate, type BlogPost } from "../lib/posts";
+
+type Props = {
+  posts: BlogPost[];
+  showDescriptions?: boolean;
+};
+
+const { posts, showDescriptions = true } = Astro.props;
+---
+
+<ol class="post-list">
+  {
+    posts.map((post) => (
+      <li class="post-card">
+        <a href={post.url} class="post-card-link">
+          <span class="post-meta">
+            <time datetime={post.pubDate}>{formatDate(post.pubDate)}</time>
+            {post.readingTime && <span>{post.readingTime}</span>}
+          </span>
+          <h2>{post.title}</h2>
+          {showDescriptions && <p>{post.description}</p>}
+          {post.tags.length > 0 && (
+            <span class="tag-row" aria-label="文章标签">
+              {post.tags.map((tag) => (
+                <span>{tag}</span>
+              ))}
+            </span>
+          )}
+        </a>
+      </li>
+    ))
+  }
+</ol>

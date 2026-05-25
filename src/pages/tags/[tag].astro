@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostList from "../../components/PostList.astro";
+import { getAllTags, normalizePosts, type BlogPost } from "../../lib/posts";
+
+export function getStaticPaths() {
+  const allPosts = normalizePosts(import.meta.glob("../blog/*.md", { eager: true }));
+  const tags = getAllTags(allPosts);
+  return tags.map((tag) => ({
+    params: { tag },
+    props: {
+      tag,
+      posts: allPosts.filter((post) => post.tags.includes(tag)),
+    },
+  }));
+}
+
+const { tag, posts } = Astro.props as { tag: string; posts: BlogPost[] };
+---
+
+<BaseLayout title={`标签：${tag}`} description={`标签 ${tag} 下的文章。`}>
+  <section class="page-title">
+    <p class="eyebrow">Tag</p>
+    <h1>{tag}</h1>
+    <p>这个主题下共有 {posts.length} 篇文章。</p>
+  </section>
+  <PostList posts={posts} />
+</BaseLayout>

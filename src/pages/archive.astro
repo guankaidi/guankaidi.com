@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostList from "../components/PostList.astro";
+import { normalizePosts } from "../lib/posts";
+
+const posts = normalizePosts(import.meta.glob("./blog/*.md", { eager: true }));
+---
+
+<BaseLayout title="文章归档" description="关凯迪个人站的全部文章归档。">
+  <section class="page-title">
+    <p class="eyebrow">Archive</p>
+    <h1>文章归档</h1>
+    <p>按发布时间倒序整理，后续新增 Markdown 文章会自动出现在这里。</p>
+  </section>
+  <PostList posts={posts} />
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+const navItems = [
+  { href: "/", label: "首页" },
+  { href: "/services/", label: "服务" },
+  { href: "/archive/", label: "文章" },
+  { href: "/about/", label: "关于" },
+  { href: "/rss.xml", label: "RSS" },
+];
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="回到首页">
+    <span class="brand-mark" aria-hidden="true">关</span>
+    <span>
+      <strong>关凯迪</strong>
+      <small>AI 内容系统 · 个人 IP · 工具探索</small>
+    </span>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    {
+      navItems.map((item) => (
+        <a href={item.href} class={Astro.url.pathname === item.href ? "active" : ""}>
+          {item.label}
+        </a>
+      ))
+    }
+  </nav>
+</header>
