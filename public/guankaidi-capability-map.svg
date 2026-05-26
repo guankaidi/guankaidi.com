@@ -7,9 +7,9 @@
   <text x="112" y="137" fill="#FFFDF8" font-family="Songti SC, STSong, serif" font-size="48" font-weight="700">关凯迪</text>
   <text x="780" y="137" fill="#F2C84B" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="24" font-weight="700">让能力被持续看见</text>
   <circle cx="600" cy="448" r="138" fill="#F2C84B" stroke="#181A16" stroke-width="5"/>
-  <text x="540" y="418" fill="#181A16" font-family="Songti SC, STSong, serif" font-size="42" font-weight="700">内容</text>
-  <text x="517" y="474" fill="#181A16" font-family="Songti SC, STSong, serif" font-size="42" font-weight="700">系统</text>
-  <text x="511" y="526" fill="#5D6458" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22">能力 × 表达 × 流程</text>
+  <text x="600" y="418" fill="#181A16" font-family="Songti SC, STSong, serif" font-size="42" font-weight="700" text-anchor="middle">内容</text>
+  <text x="600" y="474" fill="#181A16" font-family="Songti SC, STSong, serif" font-size="42" font-weight="700" text-anchor="middle">系统</text>
+  <text x="600" y="526" fill="#5D6458" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22" text-anchor="middle">能力 × 表达 × 流程</text>
   <rect x="96" y="260" width="290" height="150" rx="12" fill="#D9EEE6" stroke="#181A16" stroke-width="4"/>
   <text x="132" y="318" fill="#181A16" font-family="Songti SC, STSong, serif" font-size="34" font-weight="700">个人 IP 内容</text>
   <text x="132" y="365" fill="#5D6458" font-family="Hiragino Sans GB, PingFang SC, sans-serif" font-size="22">让交付、判断和方法</text>
