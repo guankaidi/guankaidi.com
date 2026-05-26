@@ -332,33 +332,6 @@ h3 {
   margin: 0;
 }
 
-.board-label {
-  position: absolute;
-  top: -18px;
-  left: 22px;
-  z-index: 2;
-  display: inline-grid;
-  gap: 0;
-  min-width: 170px;
-  padding: 10px 14px;
-  border: 2px solid var(--ink);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: 6px 6px 0 var(--green);
-}
-
-.board-label span {
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.board-label strong {
-  font-family: Georgia, "Songti SC", "STSong", serif;
-  font-size: 1.2rem;
-}
-
 .board-figure img {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -860,10 +833,6 @@ h3 {
   .home-actions a {
     width: 100%;
     justify-content: center;
-  }
-
-  .board-label {
-    left: 12px;
   }
 
   .board-figure img {
