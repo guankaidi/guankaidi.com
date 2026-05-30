@@ -350,7 +350,8 @@ h3 {
 }
 
 .signal-grid,
-.capability-section {
+.capability-section,
+.reference-section {
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
   gap: 28px;
@@ -403,8 +404,62 @@ h3 {
 .service-cards p,
 .service-cards li,
 .principles li,
-.about-story p {
+.about-story p,
+.reference-card p,
+.reference-card dd {
   color: var(--muted);
+}
+
+.reference-card {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 250, 0.92);
+}
+
+.reference-card p {
+  max-width: 780px;
+  margin: 0;
+}
+
+.reference-card dl {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 22px 0 0;
+}
+
+.reference-card dl div {
+  min-height: 112px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.reference-card dt {
+  margin-bottom: 8px;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.reference-card dd {
+  margin: 0;
+}
+
+.reference-card a {
+  display: inline-flex;
+  margin-top: 22px;
+  min-height: 38px;
+  align-items: center;
+  border-bottom: 2px solid var(--accent);
+  font-weight: 800;
+}
+
+.reference-card a::after {
+  margin-left: 8px;
+  color: var(--accent);
+  content: "→";
 }
 
 .service-band {
@@ -765,6 +820,7 @@ h3 {
   .about-columns,
   .signal-grid,
   .capability-section,
+  .reference-section,
   .about-story,
   .service-cards,
   .principles {
@@ -789,7 +845,8 @@ h3 {
   }
 
   .signal-cards,
-  .capability-grid {
+  .capability-grid,
+  .reference-card dl {
     grid-template-columns: 1fr;
   }
 
