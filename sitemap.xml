@@ -21,6 +21,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-17-bing-ai-visibility-insights/</loc>
+    <lastmod>2026-06-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-17-google-search-console-ai-reports/</loc>
     <lastmod>2026-06-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -617,6 +623,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/AWS/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/Bing/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
