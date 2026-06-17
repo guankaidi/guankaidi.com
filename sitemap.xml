@@ -51,6 +51,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-17-thoughtworks-agentworks-governance/</loc>
+    <lastmod>2026-06-17T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-08-guankaidi-profile-highlights/</loc>
     <lastmod>2026-06-08T02:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -534,6 +540,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/AI%E6%9C%8D%E5%8A%A1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/AI%E5%B7%A5%E4%BD%9C%E6%B5%81/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
