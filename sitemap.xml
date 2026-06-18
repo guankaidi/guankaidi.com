@@ -33,6 +33,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-18-everpure-data-primacy-ai/</loc>
+    <lastmod>2026-06-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-18-flip-frontline-ai-gateway/</loc>
     <lastmod>2026-06-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -521,6 +527,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E6%95%B0%E6%8D%AE%E5%AE%89%E5%85%A8/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E6%95%B0%E6%8D%AE%E6%9E%B6%E6%9E%84/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
