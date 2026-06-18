@@ -33,6 +33,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-18-flip-frontline-ai-gateway/</loc>
+    <lastmod>2026-06-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-18-ibm-watsonx-data-intelligence/</loc>
     <lastmod>2026-06-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -560,6 +566,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E4%B8%9A%E5%8A%A1%E9%9F%A7%E6%80%A7/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E4%B8%80%E7%BA%BF%E5%91%98%E5%B7%A5/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
