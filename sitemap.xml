@@ -21,6 +21,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-18-adobe-brand-visibility-geo/</loc>
+    <lastmod>2026-06-18T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-17-bing-ai-visibility-insights/</loc>
     <lastmod>2026-06-17T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -398,6 +404,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E5%86%85%E5%AE%B9%E8%90%A5%E9%94%80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
