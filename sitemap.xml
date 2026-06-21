@@ -51,6 +51,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-21-ai-sales-lead-qualification/</loc>
+    <lastmod>2026-06-21T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-18-adobe-brand-visibility-geo/</loc>
     <lastmod>2026-06-18T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -622,6 +628,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/tags/%E7%BA%BF%E7%B4%A2%E7%AE%A1%E7%90%86/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/tags/%E5%86%99%E4%BD%9C%E5%81%8F%E5%A5%BD/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -633,6 +644,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E4%B8%9A%E5%8A%A1%E9%9F%A7%E6%80%A7/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E4%B8%9A%E5%8A%A1%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -753,6 +769,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/AI%E6%90%9C%E7%B4%A2/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/AI%E9%94%80%E5%94%AE/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
