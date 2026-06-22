@@ -51,6 +51,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-22-sme-ai-scene-priority/</loc>
+    <lastmod>2026-06-22T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-21-agent-knowledge-freshness/</loc>
     <lastmod>2026-06-21T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -548,6 +554,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E6%B5%81%E7%A8%8B%E6%8F%90%E6%95%88/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E6%B5%81%E7%A8%8B%E4%BC%98%E5%8C%96/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
