@@ -39,6 +39,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-22-ai-service-acceptance/</loc>
+    <lastmod>2026-06-22T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-22-ai-usage-cost-budget/</loc>
     <lastmod>2026-06-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -649,6 +655,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/tags/%E4%BC%81%E4%B8%9A%E7%AE%A1%E7%90%86/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/tags/%E4%BC%81%E4%B8%9A%E5%8D%8F%E4%BD%9C/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -730,6 +741,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E7%BA%BF%E7%B4%A2%E7%AE%A1%E7%90%86/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E9%A1%B9%E7%9B%AE%E4%BA%A4%E4%BB%98/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
