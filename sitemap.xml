@@ -21,6 +21,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://guankaidi.com/blog/2026-06-26-agentforce-help-agent-service/</loc>
+    <lastmod>2026-06-26T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://guankaidi.com/blog/2026-06-22-agent-permission-design/</loc>
     <lastmod>2026-06-22T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
@@ -813,6 +819,11 @@
   </url>
   <url>
     <loc>https://guankaidi.com/tags/%E7%9F%A5%E8%AF%86%E5%BA%93/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://guankaidi.com/tags/%E6%99%BA%E8%83%BD%E5%AE%A2%E6%9C%8D/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
